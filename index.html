@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initail-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>まるばつゲーム</title> 
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="header_title">まるばつゲーム</h1>
+        </header>
+        <main>
+            <div class="playArea">
+                <div class="tool">
+                  <p id="tool_nowPlayer">⚪︎のターン</p>
+                  <p id="tool_resultText"></p>
+                  <button type="button" id="reset" class="tool_replayButton">やりなおす</button>
+                </div>
+                <div class="gameBoard">
+                  <div class="playArea_gameBoard-line">
+                    <input type="button" class="square" id="s1">
+                    <input type="button" class="square" id="s2">
+                    <input type="button" class="square" id="s3">
+                  </div>
+                  <div class="playArea_gameBoard-line">
+                    <input type="button" class="square" id="s4">
+                    <input type="button" class="square" id="s5">
+                    <input type="button" class="square" id="s6">
+                  </div>
+                  <div class="playArea_gameBoard-line">
+                    <input type="button" class="square" id="s7">
+                    <input type="button" class="square" id="s8">
+                    <input type="button" class="square" id="s9">
+                  </div>
+                </div>
+              </div>
+        </main>
+        <footer  class="footer">
+            <p>© 2024 MarubatuGame for Engineer School</p>
+        </footer>
+        <script src="./index.js"></script>
+    </body>
+</html>
